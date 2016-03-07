@@ -1,0 +1,14 @@
+<h4>All bkmrks we have on record:</h4>
+<% @bkmrks_all.each do |bkmrk| %>
+<div class="index_item">
+<p>Title: </p>
+<%= bkmrk.title %>
+<p>Site Category: </p>
+<%= bkmrk.category %>
+<p>Site URL: </p>
+<%= bkmrk.link %>
+<p>Description of Site: </p>
+<%= bkmrk.details %>
+<hr>
+<% end %>
+</div>

@@ -4,19 +4,37 @@
 <meta charset="utf-8">
   <title>bkmrk - Bookmark Manager</title>
   <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 <body>
-  <header>
+  <div class="page_border">
+    <header>
 
 
-    <nav><ul>
-      
+      <nav><ul>
+        <a href="/bkmrk"><li>bkmrk</li></a>
+        <a href="/"><li>Links</li></a>
+        <a href="/"><li>to</li></a>
+        <a href="/"><li>other</li></a>
+        <a href="/"><li>services</li></a>
+        <a href="/"><li>go</li></a>
+        <a href="/"><li>here.</li></a>
 
-      
+      </ul></nav>
+    </header>
+    <hr>
+    <section class="main">
+      <%= yield %>
+    </section>
+    <footer>
+      <nav><ul>
+        <li>footer</li>
+        <li>footer2</li>
 
-    </ul></nav>
-  </header>
+      </ul></nav>
 
+    </footer>
+  </div> <!-- class="page_border" -->
 </body>
 </html>

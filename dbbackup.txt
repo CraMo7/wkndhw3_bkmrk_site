@@ -1,0 +1,4 @@
+ id | title | category | link | details 
+----+-------+----------+------+---------
+(0 rows)
+
